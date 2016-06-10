@@ -12,23 +12,24 @@
     tools:context="com.example.sample.MainActivity">
 
     <com.daniribalbert.customfontlib.views.CustomFontTextView
-        android:id="@+id/text1"
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:padding="5dp"
-        android:text="Hello World!"
-        android:textSize="40sp"
-        app:font="28 Days Later"/>
-
-    <com.daniribalbert.customfontlib.views.CustomFontTextView
-        android:id="@+id/text2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/text1"
-        android:layout_centerInParent="true"
-        android:padding="5dp"
-        android:text="Hello World!"
+        android:text="Hello Text!"
         android:textSize="40sp"
         app:font="Android Insomnia Regular"/>
+
+    <com.daniribalbert.customfontlib.views.CustomFontButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="Hello Button!"
+        android:textSize="40sp"
+        android:gravity="center"
+        app:font="28 Days Later"/>
 </RelativeLayout>
