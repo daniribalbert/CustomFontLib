@@ -11,6 +11,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.sample.MainActivity">
 
+    <com.daniribalbert.customfontlib.views.CustomFontEditText
+        android:id="@+id/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="hint text!"
+        android:layout_alignParentTop="true"
+        android:textSize="40sp"
+        android:textColorHint="@android:color/holo_blue_bright"
+        app:font="Android Insomnia Regular"/>
+
     <com.daniribalbert.customfontlib.views.CustomFontTextView
         android:id="@+id/text"
         android:layout_width="wrap_content"

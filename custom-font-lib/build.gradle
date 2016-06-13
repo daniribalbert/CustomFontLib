@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/daniribalbert/CustomFontLib'
     gitUrl = 'https://github.com/daniribalbert/CustomFontLib.git'
 
-    libraryVersion = '0.9.5'
+    libraryVersion = '0.9.8'
 
     developerId = 'daniribalbert'
     developerName = 'Daniel Albert'
@@ -31,8 +31,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 1
-        versionName "0.9.5"
+        versionCode 2
+        versionName "0.9.8"
     }
     buildTypes {
         release {
