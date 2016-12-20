@@ -5,7 +5,7 @@ CustomFontLib is an Android Library to help adding custom fonts to Android Views
 ### 1. Add the lib as a dependency to your project build.gradle:
 ```groovy
 dependencies {
-    compile 'com.daniribalbert:custom-font-lib:0.9.8'
+    compile 'com.daniribalbert:custom-font-lib:0.9.9'
 }
 ```
 

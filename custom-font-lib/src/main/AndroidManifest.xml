@@ -1,11 +1,1 @@
-<manifest package="com.daniribalbert.customfontlib"
-          xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <application
-        android:allowBackup="true"
-        android:supportsRtl="true"
-        >
-
-    </application>
-
-</manifest>
+<manifest package="com.daniribalbert.customfontlib"/>
